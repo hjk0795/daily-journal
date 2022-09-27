@@ -9,9 +9,11 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.3",
+    "dotenv": "^16.0.2",
     "ejs": "^3.1.8",
     "express": "^4.16.3",
-    "lodash": "^4.17.11"
+    "lodash": "^4.17.11",
+    "mongoose": "^6.6.2"
   },
   "description": ""
 }
