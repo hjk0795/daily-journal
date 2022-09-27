@@ -13,7 +13,7 @@ app.use(express.static("public"));
 let id = process.env.ID;
 let password = process.env.PASSWORD;
 
-mongoose.connect(`mongodb+srv://${id}:${password}@cluster0.67znfeb.mongodb.net/blogDB?retryWrites=true&w=majority`, {useNewUrlParser: true});
+mongoose.connect(`mongodb+srv://${id}:${password}@cluster0.67znfeb.mongodb.net/blogDB`, {useNewUrlParser: true});
 
 const postsSchema = new mongoose.Schema({
   title: String,
